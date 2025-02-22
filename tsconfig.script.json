@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "rootDir": "./scripts",
+    "outDir": "./build/scripts",
+    "moduleResolution": "node",
+    "baseUrl": "script",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true
+    },
+    "include": ["scripts"],
+    "exclude": ["node_modules", "build"]
+}
